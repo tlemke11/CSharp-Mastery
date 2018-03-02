@@ -17,6 +17,8 @@ namespace PolyMorphism
             vehicles.Add(lambo);
             vehicles.Add(geometro);
 
+            //Here we see PolyMorphism at work, it enables being able to call the honk/revEngine
+            //functions on multiple
             foreach (Vehicle car in vehicles)
             {
                 Console.WriteLine(car.honk());
